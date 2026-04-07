@@ -1,0 +1,1149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mitra Alternative Fuels | CNG Conversion Experts – Tanzania</title>
+<meta name="description" content="CNG conversion experts in Tanzania. Petrol, diesel & industrial generator conversions. Established 1981, CNG specialists since 2000.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Syne:wght@400;600;700;800&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --navy: #0D2B45;
+    --navy-deep: #071929;
+    --teal: #0A7C6B;
+    --green: #1FAD6A;
+    --green-light: #2ECC87;
+    --gold: #F5C842;
+    --white: #F8FAFB;
+    --gray: #8A9BAC;
+    --card-bg: rgba(255,255,255,0.04);
+    --border: rgba(255,255,255,0.08);
+  }
+
+  *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+
+  body {
+    font-family: 'DM Sans', sans-serif;
+    background: var(--navy-deep);
+    color: var(--white);
+    overflow-x: hidden;
+  }
+
+  body::before {
+    content: '';
+    position: fixed; inset: 0;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.03'/%3E%3C/svg%3E");
+    pointer-events: none; z-index: 0; opacity: 0.4;
+  }
+
+  /* ════════════════════════
+     TANZANIA FLAG CORNER
+  ════════════════════════ */
+  .tz-flag-corner {
+    position: fixed;
+    top: 0; left: 0;
+    width: 100px; height: 71px;
+    z-index: 1001;
+    overflow: hidden;
+    pointer-events: none;
+  }
+
+  /* ════════════════════════
+     LANGUAGE SWITCHER
+  ════════════════════════ */
+  .lang-switcher {
+    position: fixed;
+    top: 18px; right: 2%;
+    z-index: 1100;
+    display: flex; align-items: center;
+    background: rgba(7, 25, 41, 0.92);
+    border: 1px solid var(--border);
+    border-radius: 100px;
+    padding: 4px;
+    backdrop-filter: blur(12px);
+    box-shadow: 0 4px 20px rgba(0,0,0,0.35);
+  }
+
+  .lang-btn {
+    padding: 7px 14px;
+    border-radius: 100px;
+    border: none;
+    background: transparent;
+    color: var(--gray);
+    font-family: 'Syne', sans-serif;
+    font-size: 12px; font-weight: 700;
+    letter-spacing: 0.8px;
+    cursor: pointer;
+    transition: all 0.25s;
+    display: flex; align-items: center; gap: 6px;
+    white-space: nowrap;
+  }
+
+  .lang-btn.active {
+    background: linear-gradient(135deg, #0A7C6B, #1FAD6A);
+    color: white;
+    box-shadow: 0 2px 12px rgba(31, 173, 106, 0.4);
+  }
+
+  .lang-btn:hover:not(.active) { color: var(--white); }
+
+  /* ════════════════════════
+     NAV
+  ════════════════════════ */
+  nav {
+    position: fixed; top: 0; width: 100%; z-index: 1000;
+    padding: 0 5%;
+    display: flex; align-items: center; justify-content: space-between;
+    height: 72px;
+    background: rgba(7, 25, 41, 0.85);
+    backdrop-filter: blur(16px);
+    border-bottom: 1px solid var(--border);
+    transition: box-shadow 0.3s;
+  }
+
+  .nav-logo {
+    display: flex; align-items: center; gap: 12px;
+    text-decoration: none;
+    margin-left: 76px;
+  }
+
+  .logo-badge {
+    width: 44px; height: 44px;
+    background: linear-gradient(135deg, #0A7C6B, #1FAD6A);
+    border-radius: 10px;
+    display: flex; align-items: center; justify-content: center;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 18px; color: white;
+    box-shadow: 0 0 20px rgba(31,173,106,0.4);
+  }
+
+  .logo-text { line-height: 1.1; }
+  .logo-text strong {
+    display: block; font-family: 'Syne', sans-serif;
+    font-weight: 800; font-size: 15px; color: var(--white); letter-spacing: 0.5px;
+  }
+  .logo-text span {
+    font-size: 10px; color: #2ECC87;
+    letter-spacing: 1.5px; text-transform: uppercase;
+  }
+
+  .nav-links {
+    display: flex; gap: 32px; list-style: none;
+    margin-right: 130px;
+  }
+  .nav-links a {
+    text-decoration: none; color: var(--gray);
+    font-size: 13px; font-weight: 500; letter-spacing: 0.5px;
+    transition: color 0.2s;
+  }
+  .nav-links a:hover { color: #2ECC87; }
+
+  .nav-cta {
+    background: linear-gradient(135deg, #0A7C6B, #1FAD6A) !important;
+    color: white !important;
+    padding: 10px 20px; border-radius: 8px;
+    font-weight: 600 !important; font-size: 13px !important;
+    transition: box-shadow 0.3s !important;
+  }
+  .nav-cta:hover { box-shadow: 0 0 24px rgba(31,173,106,0.5) !important; }
+
+  .hamburger {
+    display: none; flex-direction: column; gap: 5px; cursor: pointer;
+    background: none; border: none; padding: 4px;
+  }
+  .hamburger span { width: 24px; height: 2px; background: var(--white); border-radius: 2px; }
+
+  /* ════════════════════════
+     HERO
+  ════════════════════════ */
+  #home {
+    min-height: 100vh;
+    display: flex; align-items: center;
+    padding: 120px 5% 80px;
+    position: relative; overflow: hidden;
+  }
+
+  .hero-bg {
+    position: absolute; inset: 0;
+    background:
+      radial-gradient(ellipse 80% 60% at 70% 50%, rgba(10,124,107,0.15) 0%, transparent 60%),
+      radial-gradient(ellipse 50% 50% at 20% 80%, rgba(13,43,69,0.8) 0%, transparent 70%),
+      linear-gradient(160deg, #071929 0%, #0D2B45 50%, #071929 100%);
+  }
+
+  .hero-grid-lines {
+    position: absolute; inset: 0;
+    background-image:
+      linear-gradient(rgba(31,173,106,0.04) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(31,173,106,0.04) 1px, transparent 1px);
+    background-size: 60px 60px;
+  }
+
+  .hero-flag-watermark {
+    position: absolute; bottom: 40px; right: 5%;
+    opacity: 0.07; z-index: 1; pointer-events: none;
+  }
+
+  .hero-content { position: relative; z-index: 2; max-width: 680px; }
+
+  .hero-badge {
+    display: inline-flex; align-items: center; gap: 8px;
+    background: rgba(31,173,106,0.12);
+    border: 1px solid rgba(31,173,106,0.3);
+    padding: 8px 16px; border-radius: 100px;
+    font-size: 12px; letter-spacing: 1.5px; text-transform: uppercase;
+    color: #2ECC87; margin-bottom: 28px;
+    animation: fadeUp 0.8s ease both;
+  }
+  .hero-badge::before {
+    content: ''; width: 6px; height: 6px; border-radius: 50%;
+    background: #2ECC87; animation: pulse 2s infinite;
+  }
+
+  @keyframes pulse {
+    0%, 100% { opacity: 1; transform: scale(1); }
+    50% { opacity: 0.5; transform: scale(1.4); }
+  }
+
+  .hero-h1 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: clamp(52px, 8vw, 96px);
+    line-height: 0.95; letter-spacing: 1px; margin-bottom: 24px;
+    animation: fadeUp 0.8s 0.1s ease both;
+  }
+  .hero-h1 .accent { color: #2ECC87; }
+  .hero-h1 .gold { color: #F5C842; }
+
+  .hero-sub {
+    font-size: 16px; line-height: 1.7;
+    color: rgba(248,250,251,0.65);
+    max-width: 520px; margin-bottom: 40px;
+    animation: fadeUp 0.8s 0.2s ease both;
+  }
+
+  .hero-btns { display: flex; gap: 16px; flex-wrap: wrap; animation: fadeUp 0.8s 0.3s ease both; }
+
+  .btn-primary {
+    background: linear-gradient(135deg, #0A7C6B, #1FAD6A);
+    color: white; padding: 16px 32px; border-radius: 10px;
+    font-size: 14px; font-weight: 600; letter-spacing: 0.5px;
+    text-decoration: none; border: none; cursor: pointer;
+    transition: all 0.3s; box-shadow: 0 8px 32px rgba(31,173,106,0.3);
+  }
+  .btn-primary:hover { transform: translateY(-2px); box-shadow: 0 12px 40px rgba(31,173,106,0.5); }
+
+  .btn-outline {
+    background: transparent; border: 1px solid rgba(255,255,255,0.2);
+    color: var(--white); padding: 16px 32px; border-radius: 10px;
+    font-size: 14px; font-weight: 500; text-decoration: none; cursor: pointer; transition: all 0.3s;
+  }
+  .btn-outline:hover { border-color: #2ECC87; color: #2ECC87; background: rgba(31,173,106,0.07); }
+
+  .hero-visual {
+    position: absolute; right: 0; top: 0; bottom: 0;
+    width: 48%; display: flex; align-items: center; justify-content: center; z-index: 1;
+  }
+
+  .hero-orb {
+    width: 500px; height: 500px;
+    background: radial-gradient(circle, rgba(10,124,107,0.25) 0%, rgba(31,173,106,0.1) 40%, transparent 70%);
+    border-radius: 50%; position: relative;
+    display: flex; align-items: center; justify-content: center;
+  }
+
+  .orb-ring {
+    position: absolute; border-radius: 50%;
+    border: 1px solid rgba(31,173,106,0.15);
+    animation: spin 20s linear infinite;
+  }
+  .orb-ring:nth-child(1) { width: 300px; height: 300px; animation-duration: 15s; }
+  .orb-ring:nth-child(2) { width: 420px; height: 420px; border-style: dashed; animation-duration: 25s; animation-direction: reverse; }
+  .orb-ring:nth-child(3) { width: 500px; height: 500px; animation-duration: 35s; }
+  @keyframes spin { to { transform: rotate(360deg); } }
+
+  .cng-icon {
+    width: 160px; height: 160px;
+    background: linear-gradient(135deg, #0D2B45, #071929);
+    border: 2px solid rgba(31,173,106,0.3); border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    font-family: 'Bebas Neue', sans-serif; font-size: 48px; color: #2ECC87;
+    box-shadow: 0 0 60px rgba(31,173,106,0.3), inset 0 0 40px rgba(31,173,106,0.05); z-index: 2;
+  }
+
+  /* ════════════════════════
+     TRUST STRIP
+  ════════════════════════ */
+  .trust-strip {
+    background: rgba(255,255,255,0.03);
+    border-top: 1px solid var(--border); border-bottom: 1px solid var(--border);
+    padding: 24px 5%; display: flex; justify-content: center; flex-wrap: wrap; gap: 40px;
+    position: relative; z-index: 2;
+  }
+
+  .trust-item { display: flex; align-items: center; gap: 10px; font-size: 13px; color: var(--gray); }
+  .trust-icon {
+    width: 36px; height: 36px; background: rgba(31,173,106,0.12);
+    border-radius: 8px; display: flex; align-items: center; justify-content: center; font-size: 16px;
+  }
+  .trust-item strong { color: var(--white); font-weight: 600; font-size: 14px; }
+
+  /* ════════════════════════
+     SECTIONS
+  ════════════════════════ */
+  section { padding: 100px 5%; position: relative; }
+
+  .section-label {
+    font-size: 11px; letter-spacing: 3px; text-transform: uppercase;
+    color: #2ECC87; margin-bottom: 16px;
+    display: flex; align-items: center; gap: 10px;
+  }
+  .section-label::before { content: ''; width: 24px; height: 1px; background: #2ECC87; }
+
+  .section-title {
+    font-family: 'Syne', sans-serif;
+    font-size: clamp(32px, 4vw, 52px); font-weight: 800; line-height: 1.1; margin-bottom: 16px;
+  }
+
+  .section-desc { font-size: 16px; line-height: 1.7; color: rgba(248,250,251,0.6); max-width: 560px; }
+
+  /* TZ stripe accent on section left edge */
+  .tz-accent {
+    position: absolute; left: 0; top: 60px; bottom: 60px; width: 4px;
+    background: linear-gradient(180deg, #1EB53A 0%, #FCD116 50%, #00A3DD 100%);
+    border-radius: 0 4px 4px 0; opacity: 0.5;
+  }
+
+  /* ════════════════════════
+     ABOUT
+  ════════════════════════ */
+  #about { background: linear-gradient(180deg, #071929 0%, rgba(13,43,69,0.3) 100%); }
+
+  .about-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 80px; align-items: center; margin-top: 60px; }
+
+  .about-stats { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-top: 40px; }
+
+  .stat-card {
+    background: var(--card-bg); border: 1px solid var(--border);
+    border-radius: 16px; padding: 28px 24px; transition: all 0.3s;
+  }
+  .stat-card:hover { border-color: rgba(31,173,106,0.3); background: rgba(31,173,106,0.05); transform: translateY(-4px); }
+
+  .stat-number { font-family: 'Bebas Neue', sans-serif; font-size: 52px; color: #2ECC87; line-height: 1; }
+  .stat-label { font-size: 12px; color: var(--gray); margin-top: 4px; letter-spacing: 0.5px; }
+
+  .founder-card {
+    background: var(--card-bg); border: 1px solid var(--border);
+    border-radius: 20px; padding: 36px; position: relative; overflow: hidden;
+  }
+  .founder-card::before {
+    content: ''; position: absolute; top: 0; left: 0; right: 0; height: 3px;
+    background: linear-gradient(90deg, #0A7C6B, #1FAD6A);
+  }
+
+  .founder-avatar {
+    width: 72px; height: 72px; background: linear-gradient(135deg, #0A7C6B, #1FAD6A);
+    border-radius: 16px; display: flex; align-items: center; justify-content: center;
+    font-family: 'Bebas Neue', sans-serif; font-size: 28px; color: white; margin-bottom: 20px;
+  }
+
+  .founder-name { font-family: 'Syne', sans-serif; font-size: 24px; font-weight: 800; margin-bottom: 6px; }
+  .founder-role { font-size: 13px; color: #2ECC87; letter-spacing: 0.5px; margin-bottom: 16px; }
+  .founder-desc { font-size: 14px; line-height: 1.7; color: rgba(248,250,251,0.6); }
+
+  .about-features { display: flex; flex-direction: column; gap: 16px; margin-top: 36px; }
+  .feature-row { display: flex; align-items: center; gap: 14px; font-size: 14px; color: rgba(248,250,251,0.75); }
+  .feature-dot { width: 8px; height: 8px; border-radius: 50%; background: #2ECC87; flex-shrink: 0; }
+
+  /* ════════════════════════
+     SERVICES
+  ════════════════════════ */
+  #services { background: rgba(13,43,69,0.3); }
+
+  .services-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; margin-top: 60px; }
+
+  .service-card {
+    background: var(--card-bg); border: 1px solid var(--border);
+    border-radius: 20px; padding: 36px 32px;
+    transition: all 0.4s; position: relative; overflow: hidden; cursor: default;
+  }
+  .service-card::after {
+    content: ''; position: absolute; bottom: 0; left: 0; right: 0; height: 0;
+    background: linear-gradient(0deg, rgba(31,173,106,0.07) 0%, transparent 100%); transition: height 0.4s;
+  }
+  .service-card:hover { border-color: rgba(31,173,106,0.4); transform: translateY(-6px); box-shadow: 0 24px 60px rgba(0,0,0,0.3); }
+  .service-card:hover::after { height: 100%; }
+  .service-card.featured { background: linear-gradient(135deg, rgba(10,124,107,0.15), rgba(31,173,106,0.08)); border-color: rgba(31,173,106,0.3); }
+
+  .service-icon { width: 56px; height: 56px; border-radius: 14px; display: flex; align-items: center; justify-content: center; font-size: 26px; margin-bottom: 24px; }
+  .service-icon.petrol { background: rgba(245,200,66,0.12); }
+  .service-icon.diesel { background: rgba(10,124,107,0.15); }
+  .service-icon.generator { background: rgba(31,173,106,0.12); }
+  .service-icon.perf { background: rgba(100,150,255,0.1); }
+  .service-icon.diag { background: rgba(200,100,255,0.1); }
+  .service-icon.fleet { background: rgba(255,120,50,0.1); }
+
+  .service-title { font-family: 'Syne', sans-serif; font-size: 18px; font-weight: 700; margin-bottom: 12px; }
+  .service-desc { font-size: 13px; line-height: 1.7; color: rgba(248,250,251,0.55); margin-bottom: 20px; }
+  .service-bullets { list-style: none; display: flex; flex-direction: column; gap: 8px; }
+  .service-bullets li { display: flex; align-items: flex-start; gap: 10px; font-size: 12px; color: rgba(248,250,251,0.65); }
+  .service-bullets li::before { content: '✔'; color: #2ECC87; font-size: 11px; flex-shrink: 0; margin-top: 1px; }
+  .service-badge {
+    display: inline-block; background: rgba(31,173,106,0.15);
+    border: 1px solid rgba(31,173,106,0.3); color: #2ECC87;
+    font-size: 10px; letter-spacing: 1.5px; text-transform: uppercase; padding: 4px 10px; border-radius: 100px; margin-bottom: 14px;
+  }
+
+  /* ════════════════════════
+     WHY CNG
+  ════════════════════════ */
+  #why { background: linear-gradient(180deg, #071929 0%, rgba(13,43,69,0.2) 100%); }
+
+  .why-grid { display: grid; grid-template-columns: 1fr 1.2fr; gap: 80px; align-items: center; margin-top: 60px; }
+  .why-cards { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+  .why-card { background: var(--card-bg); border: 1px solid var(--border); border-radius: 16px; padding: 24px; transition: all 0.3s; }
+  .why-card:hover { border-color: rgba(31,173,106,0.3); transform: scale(1.03); }
+  .why-emoji { font-size: 28px; margin-bottom: 12px; }
+  .why-card-title { font-family: 'Syne', sans-serif; font-size: 15px; font-weight: 700; margin-bottom: 6px; }
+  .why-card-desc { font-size: 12px; line-height: 1.6; color: rgba(248,250,251,0.5); }
+
+  .savings-display {
+    background: linear-gradient(135deg, rgba(10,124,107,0.2), rgba(31,173,106,0.1));
+    border: 1px solid rgba(31,173,106,0.25); border-radius: 24px; padding: 48px 40px; text-align: center;
+  }
+  .savings-number {
+    font-family: 'Bebas Neue', sans-serif; font-size: 100px; line-height: 1;
+    background: linear-gradient(135deg, #2ECC87, #F5C842);
+    -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;
+  }
+  .savings-label { font-family: 'Syne', sans-serif; font-size: 18px; font-weight: 700; margin-bottom: 8px; }
+  .savings-sub { font-size: 13px; color: var(--gray); }
+
+  /* ════════════════════════
+     EXPERIENCE
+  ════════════════════════ */
+  #experience { background: rgba(13,43,69,0.4); text-align: center; }
+  .exp-title { font-family: 'Bebas Neue', sans-serif; font-size: clamp(36px, 6vw, 72px); line-height: 1; margin-bottom: 60px; }
+  .exp-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 24px; margin-bottom: 60px; }
+  .exp-card { background: var(--card-bg); border: 1px solid var(--border); border-radius: 16px; padding: 40px 24px; transition: all 0.3s; }
+  .exp-card:hover { border-color: rgba(31,173,106,0.3); background: rgba(31,173,106,0.05); }
+  .exp-num { font-family: 'Bebas Neue', sans-serif; font-size: 64px; color: #2ECC87; line-height: 1; }
+  .exp-lbl { font-size: 13px; color: var(--gray); margin-top: 6px; }
+
+  /* ════════════════════════
+     CONTACT
+  ════════════════════════ */
+  #contact { background: linear-gradient(180deg, #071929 0%, #040f1a 100%); }
+
+  .contact-grid { display: grid; grid-template-columns: 1fr 1.4fr; gap: 60px; margin-top: 60px; }
+  .contact-info { display: flex; flex-direction: column; gap: 28px; }
+  .contact-item { display: flex; align-items: flex-start; gap: 16px; }
+  .contact-icon {
+    width: 48px; height: 48px; flex-shrink: 0; background: rgba(31,173,106,0.12);
+    border: 1px solid rgba(31,173,106,0.2); border-radius: 12px;
+    display: flex; align-items: center; justify-content: center; font-size: 20px;
+  }
+  .contact-item-label { font-size: 11px; letter-spacing: 1.5px; text-transform: uppercase; color: #2ECC87; margin-bottom: 4px; }
+  .contact-item-value { font-size: 15px; font-weight: 500; color: var(--white); }
+  .contact-item-sub { font-size: 12px; color: var(--gray); margin-top: 2px; }
+
+  .contact-form { background: var(--card-bg); border: 1px solid var(--border); border-radius: 24px; padding: 40px; }
+  .form-title { font-family: 'Syne', sans-serif; font-size: 22px; font-weight: 700; margin-bottom: 28px; }
+  .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+  .form-group { display: flex; flex-direction: column; gap: 8px; margin-bottom: 16px; }
+  .form-group label { font-size: 12px; letter-spacing: 0.5px; color: var(--gray); }
+  .form-group input, .form-group select, .form-group textarea {
+    background: rgba(255,255,255,0.04); border: 1px solid var(--border);
+    border-radius: 10px; padding: 14px 16px; color: var(--white);
+    font-family: 'DM Sans', sans-serif; font-size: 14px; outline: none;
+    transition: border-color 0.2s; width: 100%;
+  }
+  .form-group input:focus, .form-group select:focus, .form-group textarea:focus {
+    border-color: rgba(31,173,106,0.5); background: rgba(31,173,106,0.04);
+  }
+  .form-group select option { background: #071929; }
+  .form-group textarea { resize: vertical; min-height: 100px; }
+  .form-submit {
+    width: 100%; background: linear-gradient(135deg, #0A7C6B, #1FAD6A);
+    color: white; padding: 16px; border-radius: 10px; border: none;
+    font-family: 'Syne', sans-serif; font-size: 15px; font-weight: 700; cursor: pointer;
+    transition: all 0.3s; box-shadow: 0 8px 32px rgba(31,173,106,0.3);
+  }
+  .form-submit:hover { transform: translateY(-2px); box-shadow: 0 12px 40px rgba(31,173,106,0.5); }
+
+  /* ════════════════════════
+     FOOTER
+  ════════════════════════ */
+  footer {
+    background: #040f1a; border-top: 1px solid var(--border);
+    padding: 40px 5%; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 20px;
+  }
+  .footer-brand { font-family: 'Syne', sans-serif; font-size: 14px; font-weight: 600; }
+  .footer-brand span { color: #2ECC87; }
+  .footer-text { font-size: 12px; color: var(--gray); }
+  .footer-links { display: flex; gap: 24px; list-style: none; }
+  .footer-links a { font-size: 12px; color: var(--gray); text-decoration: none; transition: color 0.2s; }
+  .footer-links a:hover { color: #2ECC87; }
+  .footer-tz { display: flex; align-items: center; gap: 10px; }
+
+  /* ════════════════════════
+     WHATSAPP
+  ════════════════════════ */
+  .wa-float {
+    position: fixed; bottom: 32px; right: 32px; width: 60px; height: 60px;
+    background: #25D366; border-radius: 50%;
+    display: flex; align-items: center; justify-content: center; z-index: 999;
+    box-shadow: 0 8px 32px rgba(37,211,102,0.4); text-decoration: none;
+    animation: floatAnim 3s ease-in-out infinite;
+  }
+  .wa-float:hover { transform: scale(1.1) !important; }
+  @keyframes floatAnim { 0%,100%{transform:translateY(0)} 50%{transform:translateY(-6px)} }
+  .wa-float svg { width: 30px; height: 30px; fill: white; }
+
+  /* ════════════════════════
+     ANIMATIONS
+  ════════════════════════ */
+  @keyframes fadeUp { from{opacity:0;transform:translateY(30px)} to{opacity:1;transform:translateY(0)} }
+  .reveal { opacity: 0; transform: translateY(30px); transition: opacity 0.7s ease, transform 0.7s ease; }
+  .reveal.visible { opacity: 1; transform: translateY(0); }
+
+  /* ════════════════════════
+     MOBILE NAV
+  ════════════════════════ */
+  .mobile-nav {
+    display: none; position: fixed; top: 72px; left: 0; right: 0;
+    background: rgba(7,25,41,0.98); backdrop-filter: blur(16px);
+    border-bottom: 1px solid var(--border); padding: 20px 5%; z-index: 999;
+    flex-direction: column; gap: 16px;
+  }
+  .mobile-nav.open { display: flex; }
+  .mobile-nav a { color: var(--white); text-decoration: none; font-size: 16px; padding: 8px 0; border-bottom: 1px solid var(--border); }
+  .mobile-lang-row { display: flex; gap: 10px; padding: 8px 0; align-items: center; }
+  .mobile-lang-row .lang-btn { font-size: 13px; }
+
+  /* ════════════════════════
+     RESPONSIVE
+  ════════════════════════ */
+  @media (max-width: 900px) {
+    .nav-links { display: none; }
+    .hamburger { display: flex; }
+    .hero-visual { display: none; }
+    #home { padding: 120px 5% 60px; }
+    .nav-logo { margin-left: 70px; }
+    .nav-links { margin-right: 0; }
+    .lang-switcher { top: 14px; right: 56px; }
+    .about-grid, .why-grid, .contact-grid { grid-template-columns: 1fr; gap: 40px; }
+    .services-grid { grid-template-columns: 1fr; }
+    .exp-grid { grid-template-columns: 1fr 1fr; }
+    .form-row { grid-template-columns: 1fr; }
+    footer { flex-direction: column; text-align: center; }
+    footer .footer-links { justify-content: center; }
+    footer .footer-tz { justify-content: center; }
+  }
+
+  @media (max-width: 480px) {
+    .tz-flag-corner { width: 76px; height: 76px; }
+    .lang-switcher { right: 50px; }
+    .lang-btn { padding: 5px 10px; font-size: 11px; }
+    .lang-btn .lang-label { display: none; }
+  }
+</style>
+</head>
+<body>
+
+<!-- ══ TANZANIA FLAG — TOP LEFT CORNER ══ -->
+<div class="tz-flag-corner" title="Made in Tanzania 🇹🇿">
+  <!--
+    Tanzania flag colors (diagonal, top-left triangle):
+    Green (top-left) | Gold stripe | Black band | Blue (bottom-right)
+  -->
+  <svg width="100" height="100" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+    <!-- Green: top-left -->
+    <polygon points="0,0 100,0 0,100" fill="#1EB53A"/>
+    <!-- Gold upper border of diagonal band -->
+    <polygon points="100,0 100,18 0,82 0,62" fill="#FCD116"/>
+    <!-- Black diagonal band -->
+    <polygon points="100,18 100,46 0,100 0,82" fill="#000000"/>
+    <!-- Blue: bottom area (shows as small lower-right corner area) -->
+    <polygon points="100,46 100,100 0,100" fill="#00A3DD"/>
+  </svg>
+</div>
+
+<!-- ══ LANGUAGE SWITCHER — TOP RIGHT ══ -->
+<div class="lang-switcher" id="langSwitcher">
+  <button class="lang-btn active" id="btnEN" onclick="setLang('en')">
+    🇬🇧 <span class="lang-label">EN</span>
+  </button>
+  <button class="lang-btn" id="btnSW" onclick="setLang('sw')">
+    🇹🇿 <span class="lang-label">SW</span>
+  </button>
+</div>
+
+<!-- ══ NAV ══ -->
+<nav id="navbar">
+  <a href="#home" class="nav-logo">
+    <div class="d-flex align-items-center gap-2">
+      <img src="logo.jpeg" alt="" class="img-fluid" style="max-height: 71px;">
+    </div>
+    <div class="logo-text">
+      <strong>MITRA</strong>
+      <span>Alternative Fuels</span>
+    </div>
+  </a>
+  <ul class="nav-links">
+    <li><a href="#home"       data-en="Home"        data-sw="Nyumbani">Home</a></li>
+    <li><a href="#about"      data-en="About"       data-sw="Kuhusu">About</a></li>
+    <li><a href="#services"   data-en="Services"    data-sw="Huduma">Services</a></li>
+    <li><a href="#why"        data-en="Why CNG"     data-sw="Kwa Nini CNG">Why CNG</a></li>
+    <li><a href="#experience" data-en="Experience"  data-sw="Uzoefu">Experience</a></li>
+    <li><a href="#contact" class="nav-cta" data-en="Contact Us" data-sw="Wasiliana">Contact Us</a></li>
+  </ul>
+  <button class="hamburger" id="menuToggle" aria-label="Toggle menu">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<div class="mobile-nav" id="mobileNav">
+  <a href="#home"       onclick="closeMobile()" data-en="Home"       data-sw="Nyumbani">Home</a>
+  <a href="#about"      onclick="closeMobile()" data-en="About"      data-sw="Kuhusu">About</a>
+  <a href="#services"   onclick="closeMobile()" data-en="Services"   data-sw="Huduma">Services</a>
+  <a href="#why"        onclick="closeMobile()" data-en="Why CNG"    data-sw="Kwa Nini CNG">Why CNG</a>
+  <a href="#experience" onclick="closeMobile()" data-en="Experience" data-sw="Uzoefu">Experience</a>
+  <a href="#contact"    onclick="closeMobile()" data-en="Contact"    data-sw="Wasiliana">Contact</a>
+  <div class="mobile-lang-row">
+    <button class="lang-btn" id="mobileBtnEN" onclick="setLang('en')">🇬🇧 EN</button>
+    <button class="lang-btn" id="mobileBtnSW" onclick="setLang('sw')">🇹🇿 SW</button>
+  </div>
+</div>
+
+<!-- ══ HERO ══ -->
+<section id="home">
+  <div class="hero-bg"></div>
+  <div class="hero-grid-lines"></div>
+
+  <div class="hero-flag-watermark">
+    <svg width="220" height="154" viewBox="0 0 200 140" xmlns="http://www.w3.org/2000/svg">
+      <rect width="200" height="140" fill="#1EB53A"/>
+      <polygon points="0,0 200,0 200,40 0,96" fill="#FCD116"/>
+      <polygon points="0,26 200,40 200,96 0,110" fill="#000"/>
+      <polygon points="0,110 200,96 200,140 0,140" fill="#00A3DD"/>
+    </svg>
+  </div>
+
+  <div class="hero-content">
+    <div class="hero-badge" data-en="Established 1981 · CNG Experts Since 2000" data-sw="Ilianzishwa 1981 · Wataalam wa CNG Tangu 2000">
+      Established 1981 · CNG Experts Since 2000
+    </div>
+    <h1 class="hero-h1">
+      <span data-en="Power" data-sw="Nguvu">Power</span><br>
+      <span data-en="Your" data-sw="Yako">Your</span> <span class="accent" data-en="Drive" data-sw="Gari">Drive</span><br>
+      <span data-en="with" data-sw="na">with</span> <span class="gold">CNG</span>
+    </h1>
+    <p class="hero-sub" data-en="Complete CNG conversion solutions for petrol vehicles, diesel engines & industrial generators. Indian expertise, now serving Tanzania." data-sw="Suluhisho kamili za ubadilishaji CNG kwa magari ya petroli, injini za dizeli na jenereta za viwanda. Ujuzi wa Kihindi, sasa unahudumia Tanzania.">
+      Complete CNG conversion solutions for petrol vehicles, diesel engines & industrial generators. Indian expertise, now serving Tanzania.
+    </p>
+    <div class="hero-btns">
+      <a href="#contact" class="btn-primary" data-en="Contact Us" data-sw="Wasiliana Nasi">Contact Us</a>
+      <a href="#services" class="btn-outline" data-en="Explore Services" data-sw="Gundua Huduma">Explore Services</a>
+    </div>
+  </div>
+
+  <div class="hero-visual">
+    <div class="hero-orb">
+      <div class="orb-ring"></div>
+      <div class="orb-ring"></div>
+      <div class="orb-ring"></div>
+      <div class="cng-icon">CNG</div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ TRUST STRIP ══ -->
+<div class="trust-strip">
+  <div class="trust-item">
+    <div class="trust-icon">🇮🇳</div>
+    <div><strong data-en="40+ Years" data-sw="Miaka 40+">40+ Years</strong><br><span data-en="Automotive Experience" data-sw="Uzoefu wa Magari">Automotive Experience</span></div>
+  </div>
+  <div class="trust-item">
+    <div class="trust-icon">⛽</div>
+    <div><strong data-en="25+ Years" data-sw="Miaka 25+">25+ Years</strong><br><span data-en="CNG Technology" data-sw="Teknolojia ya CNG">CNG Technology</span></div>
+  </div>
+  <div class="trust-item">
+    <div class="trust-icon">🚛</div>
+    <div><strong data-en="Petrol & Diesel" data-sw="Petroli & Dizeli">Petrol & Diesel</strong><br><span data-en="Conversion Experts" data-sw="Wataalam wa Ubadilishaji">Conversion Experts</span></div>
+  </div>
+  <div class="trust-item">
+    <div class="trust-icon">⚙️</div>
+    <div><strong data-en="Generator" data-sw="Jenereta">Generator</strong><br><span data-en="CNG Conversion" data-sw="Ubadilishaji wa CNG">CNG Conversion</span></div>
+  </div>
+  <div class="trust-item">
+    <div class="trust-icon">🇹🇿</div>
+    <div><strong data-en="Now Serving" data-sw="Sasa Tunahudumia">Now Serving</strong><br><span>Tanzania</span></div>
+  </div>
+</div>
+
+<!-- ══ ABOUT ══ -->
+<section id="about">
+  <div class="tz-accent"></div>
+  <div class="section-label" data-en="About Us" data-sw="Kuhusu Sisi">About Us</div>
+  <h2 class="section-title" data-en="Indian Expertise,<br>Now in Tanzania" data-sw="Ujuzi wa Kihindi,<br>Sasa Tanzania">Indian Expertise,<br>Now in Tanzania</h2>
+  <p class="section-desc" data-en="Backed by four decades of automotive mastery and 25 years of CNG specialization, we bring world-class alternative fuel solutions to East Africa." data-sw="Ikiungwa mkono na miongo minne ya utaalamu wa magari na miaka 25 ya utaalamu wa CNG, tunaleta suluhisho bora za nishati mbadala Afrika Mashariki.">
+    Backed by four decades of automotive mastery and 25 years of CNG specialization, we bring world-class alternative fuel solutions to East Africa.
+  </p>
+
+  <div class="about-grid">
+    <div>
+      <div class="about-stats">
+        <div class="stat-card reveal">
+          <div class="stat-number">40+</div>
+          <div class="stat-label" data-en="Years of Automotive Expertise" data-sw="Miaka ya Utaalamu wa Magari">Years of Automotive Expertise</div>
+        </div>
+        <div class="stat-card reveal">
+          <div class="stat-number">25+</div>
+          <div class="stat-label" data-en="Years in CNG Technology" data-sw="Miaka katika Teknolojia ya CNG">Years in CNG Technology</div>
+        </div>
+        <div class="stat-card reveal" style="grid-column: span 2;">
+          <div class="stat-number" style="font-size: 36px;">Since 1981</div>
+          <div class="stat-label" data-en="Established in India · Now in Tanzania" data-sw="Ilianzishwa India · Sasa Tanzania">Established in India · Now in Tanzania</div>
+        </div>
+      </div>
+      <div class="about-features reveal" style="margin-top: 32px;">
+        <div class="feature-row"><div class="feature-dot"></div><span data-en="Expertise in both petrol and diesel CNG systems" data-sw="Utaalamu katika mifumo ya CNG ya petroli na dizeli">Expertise in both petrol and diesel CNG systems</span></div>
+        <div class="feature-row"><div class="feature-dot"></div><span data-en="Performance-oriented conversions for all engine types" data-sw="Ubadilishaji unaozingatia utendaji kwa aina zote za injini">Performance-oriented conversions for all engine types</span></div>
+        <div class="feature-row"><div class="feature-dot"></div><span data-en="Industrial generator CNG conversion capability" data-sw="Uwezo wa kubadilisha jenereta za viwanda kwa CNG">Industrial generator CNG conversion capability</span></div>
+        <div class="feature-row"><div class="feature-dot"></div><span data-en="Reliability, efficiency, and long-term results" data-sw="Uaminifu, ufanisi, na matokeo ya muda mrefu">Reliability, efficiency, and long-term results</span></div>
+      </div>
+    </div>
+
+    <div class="founder-card reveal">
+      <div class="d-flex align-items-center gap-2">
+      <img src="image1.jpeg" alt="" class="img-fluid" style="max-height: 100px;">
+    </div>
+      <div class="founder-name">Nirav Patel</div>
+      <div class="founder-role" data-en="BCA Graduate · CNG Conversion Specialist" data-sw="Mhitimu wa BCA · Mtaalamu wa Ubadilishaji CNG">BCA Graduate · CNG Conversion Specialist</div>
+      <p class="founder-desc" data-en="With over 25 years of hands-on experience in CNG conversion and diagnostics, Nirav Patel has worked on petrol, diesel, and industrial engine applications — delivering high-performance and reliable fuel solutions that stand the test of time. Backed by Mira Auto Gas Service (India), Mitra brings proven expertise to Tanzania's growing market." data-sw="Akiwa na uzoefu wa zaidi ya miaka 25 wa vitendo katika ubadilishaji na uchunguzi wa CNG, Nirav Patel amefanya kazi kwenye injini za petroli, dizeli, na viwanda — akitoa suluhisho bora za mafuta. Ikiungwa mkono na Mira Auto Gas Service (India), Mitra inaleta utaalamu Tanzania.">
+        With over 25 years of hands-on experience in CNG conversion and diagnostics, Nirav Patel has worked on petrol, diesel, and industrial engine applications — delivering high-performance and reliable fuel solutions that stand the test of time.
+      </p>
+      <div style="margin-top: 24px; padding-top: 24px; border-top: 1px solid var(--border); display: flex; gap: 20px;">
+        <div>
+          <div style="font-family: 'Bebas Neue'; font-size: 28px; color: #2ECC87;">25+</div>
+          <div style="font-size: 11px; color: var(--gray);" data-en="Years Experience" data-sw="Miaka ya Uzoefu">Years Experience</div>
+        </div>
+        <div>
+          <div style="font-family: 'Bebas Neue'; font-size: 28px; color: #F5C842;">3</div>
+          <div style="font-size: 11px; color: var(--gray);" data-en="Fuel System Types" data-sw="Aina za Mfumo">Fuel System Types</div>
+        </div>
+        <div>
+          <div style="font-family: 'Bebas Neue'; font-size: 28px; color: #2ECC87;">EA</div>
+          <div style="font-size: 11px; color: var(--gray);" data-en="East Africa Focus" data-sw="Lengo Afrika Mashariki">East Africa Focus</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ SERVICES ══ -->
+<section id="services">
+  <div class="tz-accent"></div>
+  <div class="section-label" data-en="What We Do" data-sw="Tunachofanya">What We Do</div>
+  <h2 class="section-title" data-en="Petrol. Diesel. Generators.<br>Complete CNG Solutions" data-sw="Petroli. Dizeli. Jenereta.<br>Suluhisho Kamili za CNG">Petrol. Diesel. Generators.<br>Complete CNG Solutions</h2>
+  <p class="section-desc" data-en="We don't just install kits — we engineer solutions for performance, efficiency, and reliability across all engine types." data-sw="Hatuweki tu vifaa — tunaunda suluhisho za utendaji, ufanisi, na uaminifu kwa aina zote za injini.">
+    We don't just install kits — we engineer solutions for performance, efficiency, and reliability across all engine types.
+  </p>
+
+  <div class="services-grid">
+    <div class="service-card reveal">
+      <div class="service-icon petrol">🚗</div>
+      <div class="service-title" data-en="Petrol Vehicle CNG Conversion" data-sw="Ubadilishaji wa Gari la Petroli">Petrol Vehicle CNG Conversion</div>
+      <p class="service-desc" data-en="High-quality CNG kit installation delivering smooth performance and a petrol-like driving experience." data-sw="Ufungaji wa vifaa vya CNG vya ubora wa juu unaotoa utendaji laini na uzoefu wa kuendesha.">High-quality CNG kit installation delivering smooth performance and a petrol-like driving experience.</p>
+      <ul class="service-bullets">
+        <li data-en="Up to 50% fuel cost savings" data-sw="Hadi 50% ya akiba ya gharama">Up to 50% fuel cost savings</li>
+        <li data-en="Smooth & responsive performance" data-sw="Utendaji laini na wa haraka">Smooth & responsive performance</li>
+        <li data-en="Compatible with all petrol vehicles" data-sw="Inafaa kwa magari yote ya petroli">Compatible with all petrol vehicles</li>
+        <li data-en="Clean professional installation" data-sw="Ufungaji safi na wa kitaalamu">Clean professional installation</li>
+      </ul>
+    </div>
+
+    <div class="service-card featured reveal">
+      <div class="service-badge" data-en="Special Expertise" data-sw="Utaalamu Maalum">Special Expertise</div>
+      <div class="service-icon diesel">🚛</div>
+      <div class="service-title" data-en="Diesel Vehicle CNG Conversion" data-sw="Ubadilishaji wa Gari la Dizeli">Diesel Vehicle CNG Conversion</div>
+      <p class="service-desc" data-en="Advanced dual-fuel and monofuel conversions for diesel engines — our signature expertise." data-sw="Ubadilishaji wa hali ya juu wa mafuta mawili na moja kwa injini za dizeli — utaalamu wetu.">Advanced dual-fuel and monofuel conversions for diesel engines — our signature expertise.</p>
+      <ul class="service-bullets">
+        <li data-en="Dual-Fuel: 30–40% diesel savings" data-sw="Mafuta Mawili: 30-40% ya akiba">Dual-Fuel: 30–40% diesel savings</li>
+        <li data-en="Monofuel: 100% CNG diesel conversion" data-sw="Mafuta Moja: Ubadilishaji 100% CNG">Monofuel: 100% CNG diesel conversion</li>
+        <li data-en="No major engine modification required" data-sw="Hakuna marekebisho makubwa yanayohitajika">No major engine modification required</li>
+        <li data-en="Ideal for commercial vehicles & fleets" data-sw="Bora kwa magari ya biashara na meli">Ideal for commercial vehicles & fleets</li>
+      </ul>
+    </div>
+
+    <div class="service-card featured reveal">
+      <div class="service-badge" data-en="High Value Service" data-sw="Huduma ya Thamani ya Juu">High Value Service</div>
+      <div class="service-icon generator">⚡</div>
+      <div class="service-title" data-en="Industrial Generator Conversion" data-sw="Ubadilishaji wa Jenereta za Viwanda">Industrial Generator Conversion</div>
+      <p class="service-desc" data-en="Convert diesel generators to run on CNG dual-fuel systems — dramatically reducing operational costs." data-sw="Badilisha jenereta za dizeli kufanya kazi kwenye mfumo wa CNG — kupunguza sana gharama.">Convert diesel generators to run on CNG dual-fuel systems — dramatically reducing operational costs.</p>
+      <ul class="service-bullets">
+        <li data-en="Up to 30% diesel cost savings" data-sw="Hadi 30% ya akiba ya gharama za dizeli">Up to 30% diesel cost savings</li>
+        <li data-en="Ideal for factories & industries" data-sw="Bora kwa viwanda na kiwanda">Ideal for factories & industries</li>
+        <li data-en="Reliable under continuous load" data-sw="Ya kuaminika chini ya mzigo unaoendelea">Reliable under continuous load</li>
+        <li data-en="Cleaner combustion & less maintenance" data-sw="Mwako safi zaidi na matengenezo kidogo">Cleaner combustion & less maintenance</li>
+      </ul>
+    </div>
+
+    <div class="service-card reveal">
+      <div class="service-icon perf">🔧</div>
+      <div class="service-title" data-en="Performance Upgrade" data-sw="Uboreshaji wa Utendaji">Performance Upgrade</div>
+      <p class="service-desc" data-en="Improve power, efficiency, and drivability of poorly installed or low-performance CNG systems." data-sw="Boresha nguvu, ufanisi, na uendeshaji wa mifumo ya CNG iliyofungwa vibaya.">Improve power, efficiency, and drivability of poorly installed or low-performance CNG systems.</p>
+      <ul class="service-bullets">
+        <li data-en="Diagnose existing system issues" data-sw="Chunguza matatizo ya mfumo uliopo">Diagnose existing system issues</li>
+        <li data-en="Tune for maximum performance" data-sw="Rekebisha kwa utendaji wa juu">Tune for maximum performance</li>
+        <li data-en="Upgrade components as needed" data-sw="Boresha vipande kama inavyohitajika">Upgrade components as needed</li>
+      </ul>
+    </div>
+
+    <div class="service-card reveal">
+      <div class="service-icon diag">🔬</div>
+      <div class="service-title" data-en="Advanced Diagnostics" data-sw="Uchunguzi wa Hali ya Juu">Advanced Diagnostics</div>
+      <p class="service-desc" data-en="Deep technical troubleshooting for complex engine, fuel, and performance issues." data-sw="Utatuzi wa kina wa kiufundi kwa matatizo magumu ya injini na mafuta.">Deep technical troubleshooting for complex engine, fuel, and performance issues.</p>
+      <ul class="service-bullets">
+        <li data-en="Complex engine diagnostics" data-sw="Uchunguzi wa injini ngumu">Complex engine diagnostics</li>
+        <li data-en="Fuel system analysis" data-sw="Uchambuzi wa mfumo wa mafuta">Fuel system analysis</li>
+        <li data-en="Performance optimization" data-sw="Uboreshaji wa utendaji">Performance optimization</li>
+      </ul>
+    </div>
+
+    <div class="service-card reveal">
+      <div class="service-icon fleet">🚌</div>
+      <div class="service-title" data-en="Fleet Conversion Solutions" data-sw="Suluhisho za Ubadilishaji wa Meli">Fleet Conversion Solutions</div>
+      <p class="service-desc" data-en="End-to-end solutions for businesses to reduce fuel expenses across large vehicle fleets." data-sw="Suluhisho kamili kwa biashara ili kupunguza gharama za mafuta kwenye meli kubwa.">End-to-end solutions for businesses to reduce fuel expenses across large vehicle fleets.</p>
+      <ul class="service-bullets">
+        <li data-en="Bulk conversion management" data-sw="Usimamizi wa ubadilishaji wa wingi">Bulk conversion management</li>
+        <li data-en="Custom fleet analysis" data-sw="Uchambuzi maalum wa meli">Custom fleet analysis</li>
+        <li data-en="Ongoing maintenance support" data-sw="Msaada wa matengenezo unaoendelea">Ongoing maintenance support</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ══ WHY CNG ══ -->
+<section id="why">
+  <div class="section-label" data-en="Why CNG?" data-sw="Kwa Nini CNG?">Why CNG?</div>
+  <h2 class="section-title" data-en="Drive CNG Without<br>Compromise" data-sw="Endesha CNG Bila<br>Maelewano">Drive CNG Without<br>Compromise</h2>
+
+  <div class="why-grid">
+    <div>
+      <p class="section-desc" style="margin-bottom: 40px;" data-en="Compressed Natural Gas offers significant economic and environmental advantages without sacrificing performance. Here's why thousands of drivers worldwide are making the switch." data-sw="Gesi Asilia Iliyoshinikizwa inatoa faida kubwa za kiuchumi na kimazingira bila kutoa dhabihu utendaji. Hii ndiyo sababu maelfu ya madereva duniani kote wanabadilisha.">
+        Compressed Natural Gas offers significant economic and environmental advantages without sacrificing performance. Here's why thousands of drivers worldwide are making the switch.
+      </p>
+      <div class="why-cards">
+        <div class="why-card reveal">
+          <div class="why-emoji">💰</div>
+          <div class="why-card-title" data-en="Major Cost Savings" data-sw="Akiba Kubwa ya Gharama">Major Cost Savings</div>
+          <p class="why-card-desc" data-en="CNG costs significantly less than petrol or diesel, delivering up to 50% savings on fuel bills." data-sw="CNG inagharimu kidogo zaidi ya petroli au dizeli, ikileta hadi 50% ya akiba kwenye bili za mafuta.">CNG costs significantly less than petrol or diesel, delivering up to 50% savings on fuel bills.</p>
+        </div>
+        <div class="why-card reveal">
+          <div class="why-emoji">🌱</div>
+          <div class="why-card-title" data-en="Eco-Friendly" data-sw="Rafiki wa Mazingira">Eco-Friendly</div>
+          <p class="why-card-desc" data-en="Cleaner combustion means lower emissions — better for you and the environment." data-sw="Mwako safi zaidi unamaanisha utoaji mdogo wa hewa chafu — bora kwako na kwa mazingira.">Cleaner combustion means lower emissions — better for you and the environment.</p>
+        </div>
+        <div class="why-card reveal">
+          <div class="why-emoji">🔧</div>
+          <div class="why-card-title" data-en="Longer Engine Life" data-sw="Maisha Marefu ya Injini">Longer Engine Life</div>
+          <p class="why-card-desc" data-en="CNG burns cleaner, reducing carbon deposits and extending engine lifespan." data-sw="CNG inawaka vizuri zaidi, ikipunguza mashapo ya kaboni na kurefusha maisha ya injini.">CNG burns cleaner, reducing carbon deposits and extending engine lifespan.</p>
+        </div>
+        <div class="why-card reveal">
+          <div class="why-emoji">🚗</div>
+          <div class="why-card-title" data-en="Smooth Performance" data-sw="Utendaji Laini">Smooth Performance</div>
+          <p class="why-card-desc" data-en="Modern CNG systems deliver power and response equivalent to petrol engines." data-sw="Mifumo ya kisasa ya CNG inatoa nguvu na mwitikio sawa na injini za petroli.">Modern CNG systems deliver power and response equivalent to petrol engines.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="savings-display reveal">
+      <div class="savings-number">50%</div>
+      <div class="savings-label" data-en="Potential Fuel Cost Savings" data-sw="Akiba Inayowezekana ya Gharama za Mafuta">Potential Fuel Cost Savings</div>
+      <p class="savings-sub" data-en="Compared to conventional petrol & diesel fuel costs" data-sw="Ikilinganishwa na gharama za kawaida za petroli na dizeli">Compared to conventional petrol & diesel fuel costs</p>
+      <div style="margin: 36px 0; height: 1px; background: var(--border);"></div>
+      <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 24px; text-align: left;">
+        <div>
+          <div style="font-family: 'Bebas Neue'; font-size: 36px; color: #2ECC87;">30-40%</div>
+          <div style="font-size: 12px; color: var(--gray);" data-en="Diesel savings with dual-fuel" data-sw="Akiba ya dizeli na mafuta mawili">Diesel savings with dual-fuel</div>
+        </div>
+        <div>
+          <div style="font-family: 'Bebas Neue'; font-size: 36px; color: #F5C842;">30%</div>
+          <div style="font-size: 12px; color: var(--gray);" data-en="Generator diesel savings" data-sw="Akiba ya dizeli ya jenereta">Generator diesel savings</div>
+        </div>
+      </div>
+      <div style="margin-top: 32px; background: rgba(31,173,106,0.1); border: 1px solid rgba(31,173,106,0.2); border-radius: 12px; padding: 20px;">
+        <p style="font-size: 13px; color: #2ECC87; font-style: italic;" data-en='"Boosted by Mitra — Save More, Drive Smarter"' data-sw='"Imeboostwa na Mitra — Okoa Zaidi, Endesha Kwa Akili"'>"Boosted by Mitra — Save More, Drive Smarter"</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ EXPERIENCE ══ -->
+<section id="experience">
+  <div class="tz-accent"></div>
+  <div class="section-label" style="justify-content: center;" data-en="Our Credentials" data-sw="Sifa Zetu">Our Credentials</div>
+  <div class="exp-title reveal">
+    <span data-en="PROVEN EXPERTISE" data-sw="UTAALAMU ULIOTHIBITISHWA">PROVEN EXPERTISE</span><br>
+    <span style="color: #2ECC87;" data-en="ACROSS FOUR DECADES" data-sw="KWA MIONGO MINNE">ACROSS FOUR DECADES</span>
+  </div>
+
+  <div class="exp-grid">
+    <div class="exp-card reveal">
+      <div class="exp-num">40+</div>
+      <div class="exp-lbl" data-en="Years Automotive Experience" data-sw="Miaka ya Uzoefu wa Magari">Years Automotive Experience</div>
+    </div>
+    <div class="exp-card reveal">
+      <div class="exp-num">25+</div>
+      <div class="exp-lbl" data-en="Years CNG Specialization" data-sw="Miaka ya Utaalamu wa CNG">Years CNG Specialization</div>
+    </div>
+    <div class="exp-card reveal">
+      <div class="exp-num">3</div>
+      <div class="exp-lbl" data-en="Engine Types Covered" data-sw="Aina za Injini Zinazohudumika">Engine Types Covered</div>
+    </div>
+    <div class="exp-card reveal">
+      <div class="exp-num" style="color: #F5C842;">EA</div>
+      <div class="exp-lbl" data-en="Leading in East Africa" data-sw="Kiongozi Afrika Mashariki">Leading in East Africa</div>
+    </div>
+  </div>
+
+  <div class="reveal" style="display: flex; gap: 16px; flex-wrap: wrap; justify-content: center;">
+    <div style="background: var(--card-bg); border: 1px solid var(--border); border-radius: 100px; padding: 12px 24px; font-size: 13px; color: var(--gray);">✅ <span data-en="Petrol Engines" data-sw="Injini za Petroli">Petrol Engines</span></div>
+    <div style="background: var(--card-bg); border: 1px solid var(--border); border-radius: 100px; padding: 12px 24px; font-size: 13px; color: var(--gray);">✅ <span data-en="Diesel Engines" data-sw="Injini za Dizeli">Diesel Engines</span></div>
+    <div style="background: var(--card-bg); border: 1px solid var(--border); border-radius: 100px; padding: 12px 24px; font-size: 13px; color: var(--gray);">✅ <span data-en="Industrial Generators" data-sw="Jenereta za Viwanda">Industrial Generators</span></div>
+    <div style="background: var(--card-bg); border: 1px solid var(--border); border-radius: 100px; padding: 12px 24px; font-size: 13px; color: var(--gray);">✅ <span data-en="Fleet Solutions" data-sw="Suluhisho za Meli">Fleet Solutions</span></div>
+    <div style="background: var(--card-bg); border: 1px solid var(--border); border-radius: 100px; padding: 12px 24px; font-size: 13px; color: var(--gray);">✅ <span data-en="Performance Upgrades" data-sw="Uboreshaji wa Utendaji">Performance Upgrades</span></div>
+  </div>
+</section>
+
+<!-- ══ CONTACT ══ -->
+<section id="contact">
+  <div class="tz-accent"></div>
+  <div class="section-label" data-en="Get In Touch" data-sw="Wasiliana Nasi">Get In Touch</div>
+  <h2 class="section-title" data-en="Start Your CNG<br>Journey Today" data-sw="Anza Safari Yako ya CNG<br>Leo">Start Your CNG<br>Journey Today</h2>
+  <p class="section-desc" data-en="Reduce fuel costs, improve performance. Contact us for a free consultation and quote." data-sw="Punguza gharama za mafuta, boresha utendaji. Wasiliana nasi kwa ushauri na bei ya bure.">
+    Reduce fuel costs, improve performance. Contact us for a free consultation and quote.
+  </p>
+
+  <div class="contact-grid">
+    <div class="contact-info">
+      <div class="contact-item reveal">
+        <div class="contact-icon">📞</div>
+        <div>
+          <div class="contact-item-label" data-en="Phone / WhatsApp" data-sw="Simu / WhatsApp">Phone / WhatsApp</div>
+          <div class="contact-item-value">+255 761 527 703</div>
+          <div class="contact-item-sub" data-en="Available for calls & WhatsApp" data-sw="Inapatikana kwa simu na WhatsApp">Available for calls & WhatsApp</div>
+        </div>
+      </div>
+      <div class="contact-item reveal">
+        <div class="contact-icon">📧</div>
+        <div>
+          <div class="contact-item-label" data-en="Email" data-sw="Barua Pepe">Email</div>
+          <div class="contact-item-value">mitra.alt.fuels@gmail.com</div>
+          <div class="contact-item-sub" data-en="We respond within 24 hours" data-sw="Tunajibu ndani ya masaa 24">We respond within 24 hours</div>
+        </div>
+      </div>
+      <div class="contact-item reveal">
+        <div class="contact-icon">📍</div>
+        <div>
+          <div class="contact-item-label" data-en="Location" data-sw="Mahali">Location</div>
+          <div class="contact-item-value">Boko Msikiti, Dar es Salaam</div>
+          <div class="contact-item-sub">P.O. Box 39908, Tanzania</div>
+        </div>
+      </div>
+      <div class="reveal" style="background: var(--card-bg); border: 1px solid var(--border); border-radius: 16px; padding: 24px; margin-top: 8px;">
+        <div style="font-family: 'Syne'; font-weight: 700; margin-bottom: 8px;" data-en="Our Mission" data-sw="Dhamira Yetu">Our Mission</div>
+        <p style="font-size: 13px; line-height: 1.7; color: var(--gray);" data-en="To provide advanced, reliable, and cost-saving alternative fuel solutions for vehicles and industries in Tanzania — becoming the leading alternative fuel technology provider in East Africa." data-sw="Kutoa suluhisho za juu, za kuaminika, na za kuokoa gharama za nishati mbadala kwa magari na viwanda nchini Tanzania — kuwa mtoa huduma wa kwanza wa teknolojia ya nishati mbadala Afrika Mashariki.">
+          To provide advanced, reliable, and cost-saving alternative fuel solutions for vehicles and industries in Tanzania — becoming the leading alternative fuel technology provider in East Africa.
+        </p>
+      </div>
+    </div>
+
+    <div class="contact-form reveal">
+      <div class="form-title" data-en="Contact Us" data-sw="Wasiliana Nasi">Contact Us</div>
+      <div class="form-row">
+        <div class="form-group">
+          <label data-en="Full Name" data-sw="Jina Kamili">Full Name</label>
+          <input type="text" data-placeholder-en="Your name" data-placeholder-sw="Jina lako" placeholder="Your name">
+        </div>
+        <div class="form-group">
+          <label data-en="Phone / WhatsApp" data-sw="Simu / WhatsApp">Phone / WhatsApp</label>
+          <input type="tel" placeholder="+255 ...">
+        </div>
+      </div>
+      <div class="form-group">
+        <label data-en="Email Address" data-sw="Anwani ya Barua Pepe">Email Address</label>
+        <input type="email" data-placeholder-en="your@email.com" data-placeholder-sw="barua@pepe.com" placeholder="your@email.com">
+      </div>
+      <div class="form-group">
+        <label data-en="Service Required" data-sw="Huduma Inayohitajika">Service Required</label>
+        <select>
+          <option value="" data-en="Select a service" data-sw="Chagua huduma">Select a service</option>
+          <option data-en="Petrol Vehicle CNG Conversion" data-sw="Ubadilishaji wa Gari la Petroli">Petrol Vehicle CNG Conversion</option>
+          <option data-en="Diesel Dual-Fuel Conversion" data-sw="Ubadilishaji wa Mafuta Mawili ya Dizeli">Diesel Dual-Fuel Conversion</option>
+          <option data-en="Diesel Monofuel Conversion" data-sw="Ubadilishaji wa Mafuta Moja ya Dizeli">Diesel Monofuel Conversion</option>
+          <option data-en="Industrial Generator Conversion" data-sw="Ubadilishaji wa Jenereta za Viwanda">Industrial Generator Conversion</option>
+          <option data-en="Performance Upgrade" data-sw="Uboreshaji wa Utendaji">Performance Upgrade</option>
+          <option data-en="Fleet Conversion" data-sw="Ubadilishaji wa Meli">Fleet Conversion</option>
+          <option data-en="Advanced Diagnostics" data-sw="Uchunguzi wa Hali ya Juu">Advanced Diagnostics</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label data-en="Vehicle / Equipment Details" data-sw="Maelezo ya Gari / Vifaa">Vehicle / Equipment Details</label>
+        <textarea
+          data-placeholder-en="Describe your vehicle, truck, or generator — make, model, year, current fuel type..."
+          data-placeholder-sw="Elezea gari lako, lori, au jenereta — chapa, mfano, mwaka, aina ya mafuta..."
+          placeholder="Describe your vehicle, truck, or generator — make, model, year, current fuel type..."></textarea>
+      </div>
+      <button class="form-submit" id="submitBtn" onclick="handleSubmit(event)" data-en="Send Request →" data-sw="Tuma Ombi →">Send Request →</button>
+    </div>
+  </div>
+</section>
+
+<!-- ══ FOOTER ══ -->
+<footer>
+  <div>
+    <div class="footer-brand">MITRA <span>ALTERNATIVE FUELS</span></div>
+    <div class="footer-text" style="margin-top: 4px;" data-en="Established 1981 · CNG Experts Since 2000" data-sw="Ilianzishwa 1981 · Wataalam wa CNG Tangu 2000">Established 1981 · CNG Experts Since 2000</div>
+  </div>
+
+  <div class="footer-tz">
+    <!-- Tanzania flag mini in footer -->
+    <svg width="32" height="22" viewBox="0 0 200 140" xmlns="http://www.w3.org/2000/svg" style="border-radius:3px; flex-shrink:0; box-shadow: 0 1px 6px rgba(0,0,0,0.4);">
+      <rect width="200" height="140" fill="#1EB53A"/>
+      <polygon points="0,0 200,0 200,40 0,96" fill="#FCD116"/>
+      <polygon points="0,26 200,40 200,96 0,110" fill="#000"/>
+      <polygon points="0,110 200,96 200,140 0,140" fill="#00A3DD"/>
+    </svg>
+    <div class="footer-text" style="text-align:center;">
+      © 2025 Mitra Alternative Fuels · Dar es Salaam, Tanzania<br>
+      <span style="color:#2ECC87;" data-en="Boosted by Mitra" data-sw="Imeboostwa na Mitra">Boosted by Mitra</span>
+    </div>
+  </div>
+
+  <ul class="footer-links">
+    <li><a href="#home"     data-en="Home"     data-sw="Nyumbani">Home</a></li>
+    <li><a href="#services" data-en="Services" data-sw="Huduma">Services</a></li>
+    <li><a href="#why"      data-en="Why CNG"  data-sw="Kwa Nini CNG">Why CNG</a></li>
+    <li><a href="#contact"  data-en="Contact"  data-sw="Wasiliana">Contact</a></li>
+  </ul>
+</footer>
+
+<!-- ══ WHATSAPP FLOAT ══ -->
+<a href="https://wa.me/255761527703" class="wa-float" target="_blank" aria-label="WhatsApp">
+  <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+    <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+  </svg>
+</a>
+
+<script>
+/* ════════════════
+   LANGUAGE ENGINE
+════════════════ */
+let currentLang = 'en';
+
+function setLang(lang) {
+  currentLang = lang;
+  document.documentElement.lang = lang;
+
+  // Translate all tagged elements
+  document.querySelectorAll('[data-en]').forEach(el => {
+    const text = lang === 'sw' ? el.getAttribute('data-sw') : el.getAttribute('data-en');
+    if (!text) return;
+    if (text.includes('<br>') || text.includes('<span') || text.includes('<')) {
+      el.innerHTML = text;
+    } else {
+      el.textContent = text;
+    }
+  });
+
+  // Update placeholders
+  document.querySelectorAll('[data-placeholder-en]').forEach(el => {
+    el.placeholder = lang === 'sw'
+      ? el.getAttribute('data-placeholder-sw')
+      : el.getAttribute('data-placeholder-en');
+  });
+
+  // Update <select> options
+  document.querySelectorAll('select option[data-en]').forEach(opt => {
+    opt.textContent = lang === 'sw' ? opt.getAttribute('data-sw') : opt.getAttribute('data-en');
+  });
+
+  // Sync all lang buttons (desktop + mobile)
+  document.querySelectorAll('.lang-btn').forEach(btn => btn.classList.remove('active'));
+  if (lang === 'en') {
+    document.getElementById('btnEN').classList.add('active');
+    document.getElementById('mobileBtnEN') && document.getElementById('mobileBtnEN').classList.add('active');
+  } else {
+    document.getElementById('btnSW').classList.add('active');
+    document.getElementById('mobileBtnSW') && document.getElementById('mobileBtnSW').classList.add('active');
+  }
+
+  // Persist
+  try { localStorage.setItem('mitraLang', lang); } catch(e) {}
+}
+
+// Restore on load
+try {
+  const saved = localStorage.getItem('mitraLang');
+  if (saved === 'sw') setLang('sw');
+} catch(e) {}
+
+/* ══════════════
+   MOBILE NAV
+══════════════ */
+document.getElementById('menuToggle').addEventListener('click', () => {
+  document.getElementById('mobileNav').classList.toggle('open');
+});
+function closeMobile() {
+  document.getElementById('mobileNav').classList.remove('open');
+}
+
+/* ════════════════
+   SCROLL REVEAL
+════════════════ */
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      setTimeout(() => entry.target.classList.add('visible'), (entry.target.dataset.delay||0)*100);
+      observer.unobserve(entry.target);
+    }
+  });
+}, { threshold: 0.1 });
+
+document.querySelectorAll('.reveal').forEach((el, i) => {
+  el.dataset.delay = i % 4;
+  observer.observe(el);
+});
+
+/* ════════════
+   NAV SHADOW
+════════════ */
+window.addEventListener('scroll', () => {
+  document.getElementById('navbar').style.boxShadow =
+    window.scrollY > 20 ? '0 4px 24px rgba(0,0,0,0.3)' : 'none';
+});
+
+/* ════════
+   FORM
+════════ */
+function handleSubmit(e) {
+  e.preventDefault();
+  const btn = document.getElementById('submitBtn');
+  const msgEn = '✓ Request Sent!';
+  const msgSw = '✓ Ombi Limetumwa!';
+  btn.textContent = currentLang === 'sw' ? msgSw : msgEn;
+  btn.style.background = 'linear-gradient(135deg, #0A7C6B, #1FAD6A)';
+  setTimeout(() => {
+    btn.setAttribute('data-en', 'Send Request →');
+    btn.setAttribute('data-sw', 'Tuma Ombi →');
+    btn.textContent = currentLang === 'sw' ? 'Tuma Ombi →' : 'Send Request →';
+    btn.style.background = '';
+  }, 3000);
+}
+</script>
+</body>
+</html>
